@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Teste
+        <big>Um bom nome para um workspace <b>não</> é completamente inteligível, por exemplo, se seu </big>
   - type: input
     id: _
     attributes:
