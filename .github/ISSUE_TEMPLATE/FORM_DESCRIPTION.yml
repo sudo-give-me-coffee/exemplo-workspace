@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        <big>Um bom nome para um workspace <b>não<b/> é completamente inteligível, por exemplo, se você está desenvolvendo uma lista de tarefas, não faz sentido usar "Super TaskLyst" ao invés disso coloque "Lista de tarefas" lembre-se que o Bee OS é orientado a tarefas e não a aplicativos</big>
+        <big>Um bom nome para um workspace <b>não</b> é completamente inteligível, por exemplo, se você está desenvolvendo uma lista de tarefas, não faz sentido usar "Super TaskLyst" ao invés disso coloque "Lista de tarefas" lembre-se que o Bee OS é orientado a tarefas e não a aplicativos</big>
   - type: input
     id: _
     attributes:
