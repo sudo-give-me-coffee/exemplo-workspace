@@ -1,11 +1,14 @@
 
-name: Sugerir uma nova categoria para o aplicativo
-description: Sugira uma modificação que altera onde o aplicativo será exibido no menu de aplicativos
-title: "Modificação onde o aplicativo será exibido"
-labels: ["Sugestão tipo 3"]
+name: Criando uma descrição pro Workspace
+description: Nessa página você descreve seu workspace, é só responder o que for perguntado, é fácil, pra começar, vamos dar um título pro seu workspace
+title: "Lista de tarefas"
+labels: ["none"]
 
 body:
-
+  - type: markdown
+    attributes:
+      value: |
+        # Teste
   - type: input
     id: _
     attributes:
