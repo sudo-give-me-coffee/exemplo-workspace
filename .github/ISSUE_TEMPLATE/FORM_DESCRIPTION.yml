@@ -8,12 +8,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        <big>Um bom nome para um workspace é completamente inteligível, por exemplo, se você está desenvolvendo uma lista de tarefas, não faz sentido usar "Super TaskLyst" ao invés disso coloque "Lista de tarefas" lembre-se que o Bee OS é orientado a intenção do usuários e não à aplicativos</big>
+        <big>Um bom nome para um workspace é completamente inteligível, por exemplo, se você está desenvolvendo uma lista de tarefas, não faz sentido usar "Super TaskLyst" ao invés disso coloque "Lista de tarefas" lembre-se que o Bee OS é orientado a tarefas e não a aplicativos</big>
   - type: input
     id: _
     attributes:
-      label: Agora nos diga, o nome comercial do workspace
-      description: O nome comercial é o nome que vai aparecer na loja, agora sim você pode usar o nome "Super TaskLyst", esse nome será usado para pesquisar pelo seu workspace na loja
+      label: Agora nos diga, o `id` do workspace
+      description: Esse é o arquivo responsável por iniciar o aplicativo, ele fica localizado em `/usr/share/applications/`
+      placeholder: "org.kde.kwrite.desktop"
     validations:
       required: true
   - type: dropdown
