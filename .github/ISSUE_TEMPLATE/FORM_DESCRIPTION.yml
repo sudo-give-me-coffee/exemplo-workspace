@@ -9,10 +9,39 @@ body:
     attributes:
       value: |
         <big>Um bom nome para um workspace é completamente inteligível, por exemplo, se você está desenvolvendo uma lista de tarefas, não faz sentido usar "Super TaskLyst" ao invés disso coloque "Lista de tarefas" lembre-se que o Bee OS é orientado a tarefas e não a aplicativos</big>
-        <table> <tr><td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/ceu-azul.png"/></td>
-        <td>Azul celeste</td></tr><tr>
-        <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/esmeralda.png"/></td><td>Esmeralda</td></tr></table>
-  - type: input
+        <table>
+          <tr>
+            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/ametista.png"/></td>
+            <td>Ametista</td>
+            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/argila.png"/></td>
+            <td>Argila</td>
+            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/asfalto.png"/></td>
+            <td>Asfalto</td>
+            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/cenoura.png"/></td>
+            <td>Cenoura</td>
+          </tr>
+          <tr>
+            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/ceu-azul.png"/></td>
+            <td>Céu azul</td>
+            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/concreto.png"/></td>
+            <td>Concreto</td>
+            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/esmeralda.png"/></td>
+            <td>Esmeralda</td>
+            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/girassol.png"/></td>
+            <td>Girassol</td>
+          </tr>
+          <tr>
+            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/nuvens.png"/></td>
+            <td>Nuvens</td>
+            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/prata.png"/></td>
+            <td>Prata</td>
+            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/tomate.png"/></td>
+            <td>Tomate</td>
+            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/verde-marinho.png"/></td>
+            <td>Verde-marinho</td>
+          </tr>
+        </table>
+    - type: input
     id: _
     attributes:
       label: Agora nos diga, o `id` do workspace
