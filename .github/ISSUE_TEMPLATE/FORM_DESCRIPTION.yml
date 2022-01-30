@@ -41,7 +41,7 @@ body:
             <td>Verde-marinho</td>
           </tr>
         </table>
-    - type: input
+  - type: input
     id: _
     attributes:
       label: Agora nos diga, o `id` do workspace
