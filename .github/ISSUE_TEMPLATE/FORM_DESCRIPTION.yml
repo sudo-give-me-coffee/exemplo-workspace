@@ -108,7 +108,7 @@ body:
         
         E por fim, escolha essa opção caso queira que o usuário fique limitado aos módulos que você adicionar
         
-  - type: text-area- type: textarea
+  - type: text-area
     attributes:
       label: Descrição do espaço de trabalho
       description: "<big></big>"
