@@ -96,15 +96,15 @@ body:
       value: |
         <big>Aqui você pode escolher como será a relação do usuário com módulos extras, veja o que significa cada opção꞉</big>
       
-        ##### Sim, vai poder mas apenas os que já vem no espaço de trabalho
+        #### Sim, vai poder mas apenas os que já vem no espaço de trabalho
         
         Caso escolha essa opção o usuário irá poder adicionar quantos quiser, porém a escolha estará limitada aos módulos que você pré adicionar ao workspace
         
-        ##### Sim, qualquer módulo compativel com os módulos adicionados por mim
+        #### Sim, qualquer módulo compativel com os módulos adicionados por mim
         
         No caso dessa opção o usuário poderá adicionar qualquer módulo compativel com os pré adicionados
         
-        ##### Não, o usuário não vai poder adicionar novos módulos
+        #### Não, o usuário não vai poder adicionar novos módulos
         
         E por fim, escolha essa opção caso queira que o usuário fique limitado aos módulos que você adicionar
         <br/>
