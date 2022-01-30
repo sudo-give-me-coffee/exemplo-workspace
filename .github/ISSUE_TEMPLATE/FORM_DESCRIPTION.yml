@@ -108,12 +108,14 @@ body:
         
         E por fim, escolha essa opção caso queira que o usuário fique limitado aos módulos que você adicionar
         
-  - type: text-area
+  - type: textarea
     attributes:
-      label: Descrição do espaço de trabalho
+      label: E por fim, descreva
       description: "<big></big>"
       placeholder: |
-        Descreva o que é o seu workspace e pra que ele serve aqui, não se preocupe com screenshots, a loja vai cuidar disso pra você :)
+        Agora que você já deu um nome, já escolheu uma linda cor e escolheu o escopo, é hora de finalizar
+        descrevendo o que é o seu workspace e pra que ele serve aqui, essa descrição é o que os usuários verão na 
+        Bee Store, e não se preocupe com screenshots agora, o bot de publicação na loja vai cuidar disso pra você :)
     validations:
       required: true
 
