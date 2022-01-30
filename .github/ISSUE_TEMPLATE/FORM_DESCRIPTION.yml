@@ -108,4 +108,18 @@ body:
         
         E por fim, escolha essa opção caso queira que o usuário fique limitado aos módulos que você adicionar
         
+  - type: text-area- type: textarea
+    attributes:
+      label: Descrição do espaço de trabalho
+      description: "<big></big>"
+      placeholder: |
+        Descreva o que é o seu workspace e pra que ele serve aqui, não se preocupe com screenshots, a loja vai cuidar disso pra você :)
+    validations:
+      required: true
 
+  - type: markdown
+    attributes:
+      value: |
+        <big>Quando você terminar de descrever seu espaço de trabalho clique no botão **Submit new issue** e o próximo bot será iniciado!</big>
+ 
+        
