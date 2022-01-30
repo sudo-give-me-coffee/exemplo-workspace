@@ -9,6 +9,35 @@ body:
     attributes:
       value: |
         <big>Um bom nome para um workspace é completamente inteligível, por exemplo, se você está desenvolvendo uma lista de tarefas, não faz sentido usar "Super TaskLyst" ao invés disso coloque "Lista de tarefas" lembre-se que o Bee OS é orientado a tarefas e não a aplicativos</big>
+  - type: input
+    id: _
+    attributes:
+      label: Agora nos diga, o `id` do workspace
+      description: Esse é o arquivo responsável por iniciar o aplicativo, ele fica localizado em `/usr/share/applications/`
+      placeholder: "org.kde.kwrite.desktop"
+    validations:
+      required: true
+  - type: dropdown
+    id: color
+    attributes:
+      label: Qual cor você deseja 
+      description: O local representa as categorias no `Menu de aplicativos` caso escolha `Configurações` o aplicativo será enviado para o `Painel de controle`
+      options:
+        - Acessórios
+        - Configurações
+        - Desenvolvimento
+        - Escritório
+        - Gráficos
+        - Internet
+        - Multimídia
+        - Áudio
+        - Sistema
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        <big>Abaixo você pode ver o catálogo das cores</big>
         <table>
           <tr>
             <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/ametista.png"/></td>
@@ -41,48 +70,3 @@ body:
             <td>Verde-marinho</td>
           </tr>
         </table>
-  - type: input
-    id: _
-    attributes:
-      label: Agora nos diga, o `id` do workspace
-      description: Esse é o arquivo responsável por iniciar o aplicativo, ele fica localizado em `/usr/share/applications/`
-      placeholder: "org.kde.kwrite.desktop"
-    validations:
-      required: true
-  - type: dropdown
-    id: category
-    attributes:
-      label: Por fim nos diga
-      description: O local representa as categorias no `Menu de aplicativos` caso escolha `Configurações` o aplicativo será enviado para o `Painel de controle`
-      options:
-        - Acessórios
-        - Configurações
-        - Desenvolvimento
-        - Escritório
-        - Gráficos
-        - Internet
-        - Multimídia
-        - Áudio
-        - Sistema
-    validations:
-      required: true
-  - type: dropdown
-    id: control
-    attributes:
-      label:  Qual categoria do painel de controle?
-      description: Caso tenha escolhido `Configurações` é necessário escolher uma categoria do `Painel de Controle` caso contrário o aplicativo ficará oculto, caso queira manter na categoria `Configurações` [envie outra issue soicitando a reexibição](https://github.com/Tiger-OperatingSystem/simplifica-xfce/issues/new?assignees=&labels=Sugest%C3%A3o&template=FORM-NAME.yml&title=Reexibir+o+aplicativo&type=1)
-      options:
-        - Pessoal
-        - Hardware
-        - Sistema
-        - Outros
-    validations:
-      required: false
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: "Termo de bom senso"
-      description: Você confirma que não está enviando sugestão de conteúdo racista, sexista, sexual, gore, apologia a violência, preferência política ou conteúdo sensível e/ou proíbido para menores de 18 anos?
-      options:
-        - label: Sim, não estou
-          required: true
