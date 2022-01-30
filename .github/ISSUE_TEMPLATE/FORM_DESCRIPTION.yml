@@ -1,3 +1,4 @@
+
 name: Criando uma descrição pro Workspace
 description: Nessa página você descreve seu workspace, é só responder o que for perguntado, é fácil, pra começar, vamos dar um título pro seu workspace
 title: "Lista de tarefas"
@@ -11,7 +12,7 @@ body:
   - type: input
     id: _
     attributes:
-      label: Agora, nos diga o nome comercial do seu workspace:
+      label: Agora, nos diga o nome comercial do seu workspace
       description: <big></big>
     validations:
       required: true
@@ -19,40 +20,3 @@ body:
     attributes:
       value: |
         <big>Um bom nome comercial, não deve ser igual ou semelhante a outro que já existe na loja ou violar direitos autorais, outro detalhe importante é que o nome comercial não deve ser um nome genérico como "Lista de tarefas" o nome genérico (isto é, o nome que descreve o que o espaço de trabalho faz) deve ser colocado no primeiro campo </big>
-      
-  - type: markdown
-    attributes:
-      value: |
-        <big>Abaixo você pode ver o catálogo das cores:</big>
-        <table>
-          <tr>
-            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/ametista.png"/></td>
-            <td>Ametista</td>
-            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/argila.png"/></td>
-            <td>Argila</td>
-            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/asfalto.png"/></td>
-            <td>Asfalto</td>
-            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/cenoura.png"/></td>
-            <td>Cenoura</td>
-          </tr>
-          <tr>
-            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/ceu-azul.png"/></td>
-            <td>Céu azul</td>
-            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/concreto.png"/></td>
-            <td>Concreto</td>
-            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/esmeralda.png"/></td>
-            <td>Esmeralda</td>
-            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/girassol.png"/></td>
-            <td>Girassol</td>
-          </tr>
-          <tr>
-            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/nuvens.png"/></td>
-            <td>Nuvens</td>
-            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/prata.png"/></td>
-            <td>Prata</td>
-            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/tomate.png"/></td>
-            <td>Tomate</td>
-            <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/verde-marinho.png"/></td>
-            <td>Verde-marinho</td>
-          </tr>
-        </table>
