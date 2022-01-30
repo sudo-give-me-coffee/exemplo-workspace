@@ -10,8 +10,7 @@ body:
   - type: input
     id: _
     attributes:
-      label: Agora nos diga, o `id` do workspace
-      description: Esse é o arquivo responsável por iniciar o aplicativo, ele fica localizado em `/usr/share/applications/`
-      placeholder: "org.kde.kwrite.desktop"
+      label: Agora sim nos diga o nome comercial
+      description: O nome comercial é o nome que irá aparecer na loja
     validations:
       required: true
