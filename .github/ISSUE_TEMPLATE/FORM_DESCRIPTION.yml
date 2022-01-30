@@ -107,7 +107,7 @@ body:
         ### Não, o usuário não vai poder adicionar novos módulos
         
         E por fim, escolha essa opção caso queira que o usuário fique limitado aos módulos que você adicionar
-        <br/><br/>
+        <br/>
         
   - type: textarea
     attributes:
