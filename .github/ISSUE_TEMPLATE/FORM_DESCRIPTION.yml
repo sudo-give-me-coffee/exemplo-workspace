@@ -24,8 +24,8 @@ body:
   - type: dropdown
     id: color
     attributes:
-      label: Escolha uma cor que combina com o seu espaço de trabalho: 
-      description: Aqui você pode escolher uma cor para o
+      label: Escolha uma cor que combina com o seu espaço de trabalho:
+      description: <big></big>
       options:
         - Ametista
         - Céu azul
@@ -45,7 +45,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        <big>Abaixo você pode ver o catálogo das cores</big>
+        <big>Aqui você pode escolher a cor dos cabeçalhos dos módulos do seu espaço de trabalho, logo abaixo você pode ver o catálogo das cores</big>
         <table>
           <tr>
             <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/ametista.png"/></td>
