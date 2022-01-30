@@ -11,6 +11,12 @@ body:
     id: _
     attributes:
       label: Agora sim nos diga o nome comercial
-      description: <big>O nome comercial é o nome que irá aparecer na loja, o usuário poderá pesquisar por ele na loja</big>
+      description: <big></big>
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        <big>Um bom nome comercial, não deve ser igual ou semelhante a outro que já existe na loja ou violar direitos autorais, outro detalhe importante é que o nome comercial não deve ser um nome genérico como "Lista de tarefas" o nome genérico (isto é, o nome que descreve o que o espaço de trabalho faz) deve ser colocado no primeiro campo </big>
+      
+      
