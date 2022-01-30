@@ -80,7 +80,7 @@ body:
         </table>
       
   - type: dropdown
-    id: color
+    id: custom_modules
     attributes:
       label: O usuário vai poder adicionar novos módulos?
       description: <big></big>
