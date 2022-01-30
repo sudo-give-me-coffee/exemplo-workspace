@@ -9,6 +9,9 @@ body:
     attributes:
       value: |
         <big>Um bom nome para um workspace é completamente inteligível, por exemplo, se você está desenvolvendo uma lista de tarefas, não faz sentido usar "Super TaskLyst" ao invés disso coloque "Lista de tarefas" lembre-se que o Bee OS é orientado a tarefas e não a aplicativos</big>
+        <table> <tr><td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/ceu-azul.png"/></td>
+        <td>Azul celeste</td></tr><tr>
+        <td><img src="https://github.com/sudo-give-me-coffee/bee-software-idris-bot/raw/main/colors/esmeralda.png"/></td><td>Esmeralda</td></tr></table>
   - type: input
     id: _
     attributes:
