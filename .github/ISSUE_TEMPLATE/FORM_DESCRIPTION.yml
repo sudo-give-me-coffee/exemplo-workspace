@@ -8,11 +8,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        <big>Um bom nome para um workspace <b>não</b> é completamente inteligível, por exemplo, se você está desenvolvendo uma lista de tarefas, não faz sentido usar "Super TaskLyst" ao invés disso coloque "Lista de tarefas" lembre-se que o Bee OS é orientado a tarefas e não a aplicativos</big>
+        <big>Um bom nome para um workspace é completamente inteligível, por exemplo, se você está desenvolvendo uma lista de tarefas, não faz sentido usar "Super TaskLyst" ao invés disso coloque "Lista de tarefas" lembre-se que o Bee OS é orientado a tarefas e não a aplicativos</big>
   - type: input
     id: _
     attributes:
-      label: Qual o arquivo .desktop responsável pelo aplicativo?
+      label: Agora nos diga, o `id` do workspace
       description: Esse é o arquivo responsável por iniciar o aplicativo, ele fica localizado em `/usr/share/applications/`
       placeholder: "org.kde.kwrite.desktop"
     validations:
@@ -20,7 +20,7 @@ body:
   - type: dropdown
     id: category
     attributes:
-      label: Onde o aplicativo deve ser exibido?
+      label: Por fim nos diga
       description: O local representa as categorias no `Menu de aplicativos` caso escolha `Configurações` o aplicativo será enviado para o `Painel de controle`
       options:
         - Acessórios
