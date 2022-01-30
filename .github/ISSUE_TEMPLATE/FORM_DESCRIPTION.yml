@@ -12,7 +12,7 @@ body:
   - type: input
     id: _
     attributes:
-      label: Agora, nos diga o nome comercial do seu workspace
+      label: Agora, nos diga o nome comercial do seu workspace꞉
       description: <big></big>
     validations:
       required: true
@@ -24,7 +24,7 @@ body:
   - type: dropdown
     id: color
     attributes:
-      label: Escolha uma cor que combina com o seu espaço de trabalho
+      label: Escolha uma cor que combina com o seu espaço de trabalho꞉
       description: <big></big>
       options:
         - Ametista
