@@ -11,6 +11,6 @@ body:
     id: _
     attributes:
       label: Agora sim nos diga o nome comercial
-      description: O nome comercial é o nome que irá aparecer na loja
+      description: <big>O nome comercial é o nome que irá aparecer na loja, o usuário poderá pesquisar por ele na loja</big>
     validations:
       required: true
