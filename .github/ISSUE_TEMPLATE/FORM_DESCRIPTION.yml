@@ -94,7 +94,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        <big>Aqui você pode escolher como será a relação do usuário com módulos extras</big>
+        <big>Aqui você pode escolher como será a relação do usuário com módulos extras, veja o que significa cada opção꞉</big>
       
         #### Sim, vai poder mas apenas os que já vem no espaço de trabalho
         
